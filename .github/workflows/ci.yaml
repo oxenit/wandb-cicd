@@ -1,0 +1,11 @@
+name: GH Actions Demo
+
+on: [push]
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello world
+        run: |
+          echo "hello world"
